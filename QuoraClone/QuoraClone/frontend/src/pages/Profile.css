@@ -1,0 +1,92 @@
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-header h1 {
+  color: #282829;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.profile-email {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: #b92b27;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.profile-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e4e6eb;
+}
+
+.tab-button {
+  padding: 15px 30px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+}
+
+.tab-button:hover {
+  color: #282829;
+}
+
+.tab-button.active {
+  color: #b92b27;
+  border-bottom-color: #b92b27;
+}
+
+.profile-content {
+  margin-top: 20px;
+}
+
+.answer-question-link {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.answer-question-title {
+  color: #b92b27;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.answer-question-link:hover .answer-question-title {
+  color: #a02622;
+  text-decoration: underline;
+}
+
+
+
